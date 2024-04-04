@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: Arial;
+} 
+.right{
+    
+    right: 0; 
+    width: 100px;
+    height: 100px;
+    background-color: #fcc;
+    position: absolute; 
+    /* opacity: 0.5;  */
+}
+.left{
+    height: 100px;
+
+     background-color: #ffc; 
+    
+
+    /* margin-right: 100px;   */
+}
+.nav{
+    /* 删除li前面的小圆点 */
+    list-style: none;
+}
+.nav::after{
+    /* 清除浮动流三件套 */
+    content: "";
+    display: block;
+    clear: both;
+
+}
+a{
+    /* 删除下划线 */
+    text-decoration: none;
+}
+.nav .list-item{
+    float: left;
+    margin: 10px;
+    height: 30px;
+    /* 文本高度 */
+    line-height: 30px;
+}
+.nav .list-item a{
+     padding:0 5px; 
+    color: #f40;
+    font-weight: bold;
+    height: 30px;
+    /* 变成块级元素 */
+    display: inline-block;
+    border-radius: 15px;
+}
+.nav .list-item a:hover{
+     background-color: #f40;
+     color: #fff;
+}
+

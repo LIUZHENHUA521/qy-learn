@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    width: 300px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid black;
+    /* 三件套 */
+    white-space: nowrap; 
+    /* 它确保文本或其他内容在容器的宽度限制下显示为单行，而不会换行到下一行 */
+    overflow: hidden;
+    /*  它指定超出元素框尺寸的内容应该被裁剪并隐藏起来，不显示在视图中*/
+    text-overflow: ellipsis;
+    /* 它指定了当文本溢出容器时，以省略号...表示被截断的部分 */
+}
+.qoo{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-image: url(2.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    /* background-position: 100px 100px;  */
+}
+/* 图片代替文字 */
+a{
+    display: inline-block;
+    text-decoration: none;
+     color: #424242; 
+    width: 190px;
+    height: 90px;
+    border: 1px solid black;
+    background-image: url(https://gw.alicdn.com/imgextra/i1/O1CN01LfyvED1TpRW5ppmks_!!6000000002431-2-tps-214-134.png);
+    background-size: 190px 90px;
+    text-indent: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.content{
+    /* 不论怎么移动 内容永远居中 */
+    margin: 0 auto;
+    width: 1200px;
+    height: 30px;
+    background-color: #0f0;
+}
+.wrapper{
+    height: 30px;
+    background-color: #123;
+}
+/* vertical-align 用于控制行内元素垂直方向上的对齐方式
+ */

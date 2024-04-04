@@ -1,0 +1,48 @@
+div{
+    border: 1px solid black;
+    text-align: center; /*对齐方式*/
+     line-height: 22px;/*单行文本高度 */
+    text-indent: 2em;  /*首行缩进*/
+}
+/* 单行文本垂直居中的方法就是 单行文本高度等于容器高度 */
+/* "em" 是一个相对长度单位，用于在网页设计中表示相对于当前元素的字体大小。它是指相对于当前元素的字体大小的倍数。 */
+del{
+    text-decoration:none/*取消划线 */
+}
+span{
+    text-decoration: line-through;/*增加一条划线 */
+    cursor: pointer;/* 鼠标光标变化 */
+}
+div{
+    text-decoration:underline /* 增加一条下划线*/
+}
+div>p{
+    cursor: pointer;/* 鼠标光标变化 */
+}
+/* 伪类选择器 */
+a:hover{
+    background-color:orange;
+}
+
+
+.green{
+    background-color: green;
+}
+.gray{
+    background-color: grey;
+}
+.red{
+    background-color: red;
+}
+.size1{
+    width: 100px;
+    height: 100px;
+}
+.size2{
+    width: 200px;
+    height: 200px;
+}
+.size3{
+    width: 300px;
+    height: 300px;
+}

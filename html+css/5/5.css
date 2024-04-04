@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*
+absolute
+.demo{
+      position: absolute;  
+     left: 100px; 
+    距离左边一百像素 且left和right只能存在一个
+    top: 100px; 
+    距离上边一百像素 
+    width: 100px;
+    height: 100px;
+    background-color: red;
+     opacity: 0.5; 
+    透明度 
+}
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: green;  
+
+ } */
+ .demo{
+    position: relative; 
+    /* left: 100px; */
+    /* top: 100px; */
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    opacity: 0.5;
+ }
+ .box{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+ }
+.wrapper{
+    position: relative;
+    margin-left: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}
+.content{
+    /* position: relative; */
+    margin-left: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.box1{
+    position: absolute;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+}
+.lzh1{
+    position: fixed;
+   width: 50px;
+   height: 200px;
+   background-color: red;
+   color: #fff;
+}
+.qy1{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-left: -50px;
+    margin-top:-50px;
+}
